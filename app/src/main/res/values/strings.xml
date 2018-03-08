@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Letgo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chat_logs">Chat Logs</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="imp_click_to_add">Click to add picture</string>
+    <string name="item_condition">Item Condition</string>
+    <string name="category">Category</string>
+    <string name="item_description">Item Description</string>
+    <string name="item_name">Item Name</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="title_activity_user_items">UserItems</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="favourite">Favourite</string>
+    <string name="home">Home</string>
+    <string name="chat">Chat</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="search_hint">Search Products</string>
+    <string name="Remove">Remove</string>
+    <string name="putPnSale">Put On Sale</string>
+    <string name="ShareItem">Share Item</string>
+    <string name="title_activity_item_view">ItemViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="AddedToFaves">Added to Favourites</string>
+    <string name="ItemRMVD">Item removed</string>
+    <string name="putonsale">Item got put on sale!</string>
+    <string name="notputonsale">Item was not put on sale!</string>
+    <string name="itemupdated">Updated successfully !</string>
+    <string name="itemnotupdated">Update was not successful!</string>
+    <string name="pickone">Pick One :</string>
+    <string name="selectpick">Select Picture</string>
+    <string name="answerYes">Yes</string>
+    <string name="askContinue">Do you want to continue removal ?</string>
+    <string name="ShareITEM">Share Item...</string>
+    <string name="answerNo">No</string>
+    <string name="emptyFields">Some fields are empty</string>
+    <string-array name="choice">
+        <item>From Gallery</item>
+        <item>Capture Image</item>
+    </string-array>
+    <string-array name="fragmentNames">
+        <item>Selling Items</item>
+        <item>Sold Items</item>
+        <item>Favourite Items</item>
+    </string-array>
+    <string-array name="welcomefragmentNames">
+        <item>Log In</item>
+        <item>Register</item>
+    </string-array>
+    <string name="title_activity_edit_profile">Edit Your Profile</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="email">Email</string>
+    <string name="chatlogs">Chat Logs</string>
+    <string name="sellitem">Sell Items</string>
+    <string name="filterActivity">Filter</string>
+    <string name="asSold">Product marked as sold</string>
+    <string name="NotificationsActivity">Notifications</string>
+    <string name="enterMsg">Enter message</string>
+    <string-array name="categories">
+        <item>VEHICLE</item>
+        <item>TECH</item>
+        <item>SPORT</item>
+        <item>HOME</item>
+        <item>CLOTHES</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="sortBy">
+        <item>Closest first</item>
+        <item>Price:high to low</item>
+        <item>Price:low to high</item>
+        <item>Newest first</item>
+    </string-array>
+    <string-array name="Distance">
+        <item>Nearby(1 mile)</item>
+        <item>In my neighborhood (5 miles)</item>
+        <item>In my city (10 miles)</item>
+        <item>Farther (10+miles)</item>
+        <item>Not set</item>
+    </string-array>
+    <string-array name="PostedWithin">
+        <item>The last 24h</item>
+        <item>The last 7 days</item>
+        <item>The last 30 days</item>
+        <item>All products</item>
+    </string-array>
+    <string name="register">Register</string>
+    <string name="save">Save</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Username</string>
+    <string name="notlegalInput">Illegal Input</string>
+    <string name="cannot_accesss">Cannot download items if the app can\'t access the storage</string>
+</resources>

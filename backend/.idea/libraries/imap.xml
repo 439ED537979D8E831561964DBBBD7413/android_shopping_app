@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="imap">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/libs/imap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

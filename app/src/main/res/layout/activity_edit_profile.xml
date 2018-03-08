@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="course.android.letgo_307945402_204317770.GUI.EditProfileActivity">
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/prof_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_menu_camera"
+                android:clickable="true"
+                android:contentDescription="@string/imp_click_to_add"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:minHeight="50dp"
+                android:minWidth="50dp"
+                android:layout_gravity="center"
+                android:onClick="onClickCam"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/edit_prof_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/fname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edit_prof_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/lname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edit_prof_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edit_prof_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/new_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/sale_saleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:elevation="0dp"
+                android:onClick="saveProf"
+                android:text="@string/save" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

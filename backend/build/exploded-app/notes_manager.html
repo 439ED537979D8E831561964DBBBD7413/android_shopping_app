@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Notes</title>
+</head>
+<body>
+<h1>MY-NOTES CMS</h1>
+
+<h3>GET ALL NOTES FOLDERS</h3>
+<form method="post" action="http://localhost:8080/projSrv/projres?" name="submit">
+		<input type="hidden" name="req" value="0"> 
+  		<input type="submit" name="submit" value="ok">
+  		
+</form>
+<br>
+
+<h3>FOLDER INSERT/UPDATE/REMOVE OPERATIONS </h3>
+ 
+<form method="post" action="http://localhost:8080/projSrv/web_folder_manage?" name="submit">
+ 
+  		<input type="checkbox" name="delete" value="true" >delete<br /><br />
+  		<label>
+			id: <input type="text" name="f_id"  /> <br /> <br /> 
+		</label>
+		<label> 
+		    title: <input type="text" name="f_title" /> <br /> <br />
+		</label> 
+		
+  		<input type="submit" name="submit" value="ok">
+  		
+</form>
+<br>
+<br>
+
+<h3>GET ALL ITEMS OF NOTE FOLDER BY ID</h3>
+<form method="post" action="http://localhost:8080/projSrv/projres?" name="submit">
+		<input type="hidden" name="req" value="6"> 
+  		<label>
+			id: <input type="text" name="f_id"  /> <br /> <br /> 
+		</label>
+  		<input type="submit" name="submit" value="ok">
+  		
+</form>
+<br>
+<h3>--------------------</h3>
+<br>
+<h3> ITEM INSERT/UPDATE/REMOVE OPERATIONS </h3> 
+<form method="post" action="http://localhost:8080/projSrv/web_item_manage?" name="submit" enctype="multipart/form-data">
+ 
+  		<input type="checkbox" name="delete" value="true" >delete<br /><br />
+  		<label>
+			id: <input type="text" name="it_id"  /> <br /> <br /> 
+		</label>
+		<label> 
+		    title: <input type="text" name="it_title" /> <br /> <br />
+		</label> 
+		<label>
+			description: <input type="text" name="it_desc"   /><br /> <br />
+		</label> 
+		<label>
+			folder id: <input type="text"  name="it_fid" /><br /> <br /> 
+		</label>
+		<label>
+  		    image: <input type="file" name="fileField"><br /><br />
+  		</label>
+  		<input type="submit" name="submit" value="ok">
+  		
+</form>
+
+<br>
+<br>
+
+<h3>GET IMAGE OF ITEM</h3>
+<form method="post" action="http://localhost:8080/projSrv/projres?" name="submit">
+		<input type="hidden" name="req" value="5"> 
+  		<label>
+			id: <input type="text" name="it_id"  /> <br /> <br /> 
+		</label>
+  		<input type="submit" name="submit" value="ok">
+  		
+</form>
+
+
+</body>
+</html>

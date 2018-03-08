@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b53f88</color>
+    <color name="colorPrimaryDark">#b53f88</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorTransparent">#00f0f8ff</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="whiteBack">#ffffff</color>
+    <color name="backgroundfilter">#d1caca</color>
+    <color name="black_overlay">#66e6dfdf</color>
+    <color name="red">#ff0d00</color>
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <context-param>
+        <description>the application res directory files</description>
+        <param-name>localAppDir</param-name>
+        <param-value>res</param-value>
+    </context-param>
+
+
+    <servlet>
+        <description></description>
+        <display-name>ProjectResourceServlet</display-name>
+        <servlet-name>ProjectResourceServlet</servlet-name>
+        <servlet-class>com.letgo.servlets.ProjectResourceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProjectResourceServlet</servlet-name>
+        <url-pattern>/projres</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>WebUsersManageServlet</display-name>
+        <servlet-name>WebUsersManageServlet</servlet-name>
+        <servlet-class>com.letgo.servlets.WebUsersManageServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WebUsersManageServlet</servlet-name>
+        <url-pattern>/web_user_manage</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <description></description>
+        <display-name>WebItemsManageServlet</display-name>
+        <servlet-name>WebItemsManageServlet</servlet-name>
+        <servlet-class>com.letgo.servlets.WebItemsManageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WebItemsManageServlet</servlet-name>
+        <url-pattern>/web_item_manage</url-pattern>
+    </servlet-mapping>
+</web-app>

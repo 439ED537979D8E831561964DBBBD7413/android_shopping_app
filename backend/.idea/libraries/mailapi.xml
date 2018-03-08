@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mailapi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/libs/mailapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
