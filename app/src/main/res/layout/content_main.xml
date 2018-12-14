@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="course.android.letgo_307945402_204317770.GUI.MainActivity"
+    tools:context="course.android.shopping_example_app.GUI.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
 

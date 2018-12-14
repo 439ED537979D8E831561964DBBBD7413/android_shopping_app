@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="course.android.letgo_307945402_204317770.GUI.ChatLogsActivity">
+    tools:context="course.android.shopping_example_app.course.android.shopping_example_app.GUI.ChatLogsActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

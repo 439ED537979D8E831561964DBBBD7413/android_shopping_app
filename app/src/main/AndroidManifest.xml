@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="course.android.letgo_307945402_204317770">
+    package="shopping_example_app">
 
     <uses-feature
         android:name="android.hardware.CAMERA"
@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".GUI.MainActivity"
+            android:name="course.android.shopping_example_app.GUI.MainActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:launchMode="singleTop"
@@ -28,52 +28,53 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
 
-                <meta-data
-                    android:name="android.app.default_searchable"
-                    android:value=".SearchActivity" />
+
             </intent-filter>
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchActivity" />
         </activity>
         <activity
-            android:name=".GUI.ChatLogsActivity"
+            android:name="course.android.shopping_example_app.GUI.ChatLogsActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_chat_logs"
-            android:parentActivityName=".GUI.MainActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.MainActivity"
             android:screenOrientation="portrait">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="course.android.letgo_307945402_204317770.GUI.MainActivity" />
+                android:value="course.android.shopping_example_app.GUI.MainActivity" />
         </activity>
         <activity
-            android:name=".GUI.SellItemActivity"
+            android:name="course.android.shopping_example_app.GUI.SellItemActivity"
             android:configChanges="orientation"
             android:label="@string/sellitem"
-            android:parentActivityName=".GUI.MainActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.MainActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="course.android.letgo_307945402_204317770.GUI.MainActivity" />
+                android:value="course.android.shopping_example_app.GUI.MainActivity" />
         </activity>
         <activity
-            android:name=".GUI.ProfileActivity"
+            android:name="course.android.shopping_example_app.GUI.ProfileActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_profile"
-            android:parentActivityName=".GUI.MainActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/TranparentOverLay">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="course.android.letgo_307945402_204317770.GUI.MainActivity" />
+                android:value="course.android.shopping_example_app.GUI.MainActivity" />
         </activity>
         <activity
-            android:name=".GUI.SearchActivity"
+            android:name="course.android.shopping_example_app.GUI.SearchActivity"
             android:configChanges="orientation"
             android:launchMode="singleTop"
-            android:parentActivityName=".GUI.MainActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -85,50 +86,50 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity
-            android:name=".GUI.EditProfileActivity"
+            android:name="course.android.shopping_example_app.GUI.EditProfileActivity"
             android:configChanges="orientation"
             android:label="@string/title_activity_edit_profile"
-            android:parentActivityName=".GUI.ProfileActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.ProfileActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="course.android.letgo_307945402_204317770.GUI.ProfileActivity" />
+                android:value="course.android.shopping_example_app.GUI.ProfileActivity" />
         </activity>
         <activity
-            android:name=".GUI.FilterActivity"
+            android:name="course.android.shopping_example_app.GUI.FilterActivity"
             android:configChanges="orientation"
             android:label="@string/filterActivity"
-            android:parentActivityName=".GUI.MainActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.MainActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="course.android.letgo_307945402_204317770.GUI.MainActivity" />
+                android:value="course.android.shopping_example_app.GUI.MainActivity" />
         </activity>
         <activity
-            android:name=".GUI.ItemViewActivity"
+            android:name="course.android.shopping_example_app.GUI.ItemViewActivity"
             android:configChanges="orientation"
-            android:parentActivityName=".GUI.MainActivity"
+            android:parentActivityName="course.android.shopping_example_app.GUI.MainActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="course.android.letgo_307945402_204317770.GUI.MainActivity" />
+                android:value="course.android.shopping_example_app.GUI.MainActivity" />
         </activity>
         <activity
-            android:name=".GUI.MessagesActivity"
+            android:name="course.android.shopping_example_app.GUI.MessagesActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GUI.WelcomeActivity"
+            android:name="course.android.shopping_example_app.GUI.WelcomeActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
 
         <service
-            android:name=".Services.NotifyierService"
+            android:name="course.android.shopping_example_app.Services.NotifyierService"
             android:enabled="true"
             android:process=":remote" />
 
         <receiver
-            android:name=".Services.BootStartUpReciever"
+            android:name="course.android.shopping_example_app.Services.BootStartUpReciever"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="course.android.letgo_307945402_204317770.GUI.Frag_UserItems"
+    tools:context="course.android.shopping_example_app.GUI.Frag_UserItems"
     android:orientation="vertical">
 
 

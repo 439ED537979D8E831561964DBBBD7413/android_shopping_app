@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#e1e1e1"
     android:orientation="vertical"
-    tools:context="course.android.letgo_307945402_204317770.GUI.MessagesActivity">
+    tools:context="course.android.shopping_example_app.GUI.MessagesActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/reyclerview_message_list"

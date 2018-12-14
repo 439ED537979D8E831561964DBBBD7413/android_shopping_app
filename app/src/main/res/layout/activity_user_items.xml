@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:fitsSystemWindows="true"
-    tools:context="course.android.letgo_307945402_204317770.GUI.ProfileActivity"
+    tools:context="course.android.shopping_example_app.GUI.ProfileActivity"
     tools:showIn="@layout/activity_profile">
 
     <android.support.design.widget.AppBarLayout
